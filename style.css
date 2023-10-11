@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* =======================
+    Submit form style 
+==========================*/
+.form{
+ width: 25%;
+ min-height: 400px;
+ margin: 50px auto;
+ border: 1px solid #ddd;
+ padding: 30px;
+}
+.form h2{
+    margin: 10px 0 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    border-bottom: 1px dashed rgb(247, 102, 6);
+    padding-bottom: 5px;
+}
+input, button{
+    padding: 13px 10px;
+    font-size: 18px;
+    width: 100%;
+    border: 1px solid rgb(247, 102, 6);
+    border-radius: 3px;
+}
+label{
+    font-size: 20px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+button{
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: rgb(247, 102, 6);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #fff;
+    color: #000;
+}
+/* =======================
+    Card data style 
+==========================*/
+.main{
+    width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    flex-basis: 316px;
+    border: 1px solid rgb(247, 102, 6);
+    padding: 25px;
+    position: relative;
+    margin: 5px;
+}
+.card h3, p{
+    margin: 7px 0;
+}
+#close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: rgb(247, 102, 6);
+    border: 1px solid rgb(247, 102, 6);
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 20px;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#close:hover{
+    background-color: #fff;
+    color: #000;
+}
+.clear-card{
+    width: 100%;
+    text-align: center;
+}
+
+#clear-data{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 50px;
+}
