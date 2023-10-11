@@ -1,1 +1,3 @@
-# local-storage
+# Local-Storage-in-JS
+
+<img src="img/local-storage.png" />
